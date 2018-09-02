@@ -1,8 +1,3 @@
-## Prepate App (apollo)
-
-- `cd ./apollo-server && npm install`
-- `npm install`
-
 ## Development
 
 - `npm dev`
