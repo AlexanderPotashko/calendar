@@ -1,0 +1,47 @@
+@import '../../../../scss/all';
+
+.container {
+  position: relative;
+  width: 60vw;
+}
+
+.button {
+  outline: none;
+}
+
+.title {
+  padding: .5em;
+  width: 100%;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  svg {
+    cursor: pointer;
+  }
+}
+
+
+.item {
+  display: flex;
+  width: 100%;
+  padding: .5em;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.text {
+
+}
+
+.buttons {
+  svg {
+    margin-left: .2em;
+    cursor: pointer;
+  }
+
+  .trash {
+    color: $color-error;
+  }
+}

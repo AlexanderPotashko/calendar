@@ -1,0 +1,12 @@
+@import '../../../scss/all';
+
+.container {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.dayName {
+  @include column(1);
+  text-align: center;
+}

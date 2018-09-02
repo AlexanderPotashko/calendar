@@ -1,0 +1,10 @@
+@import '../../../../scss/all';
+
+.container {
+  padding: 1em;
+}
+
+.week {
+  @include row();
+  background: $color-dark;
+}

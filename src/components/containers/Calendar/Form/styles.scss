@@ -1,0 +1,63 @@
+@import '../../../../scss/all';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.group {
+  width: 100%;
+  padding: .2em;
+  box-sizing: border-box;
+}
+
+.label {
+  color: $color-dark;
+}
+
+.text {
+  width: 100%;
+}
+
+.colors {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+
+  .color {
+    flex: 1 0 20%;
+    cursor: pointer;
+    border: 1px solid white;
+
+    &.checked > div {
+      border: 3px solid $color-light; 
+    }
+
+    input { display: none; }
+
+    div { 
+      border: 3px solid white; 
+      padding: 1em; 
+    }
+  }
+
+  .color-1 { background-color: $color-1; }
+  .color-2 { background-color: $color-2; }
+  .color-3 { background-color: $color-3; }
+  .color-4 { background-color: $color-4; }
+  .color-5 { background-color: $color-5; }
+}
+
+.timepickers {
+  display: flex;
+}
+
+.timepicker {
+  flex: 1 0 50%;
+}
+

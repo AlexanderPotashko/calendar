@@ -1,0 +1,62 @@
+@import '../../../../scss/all';
+
+.day {
+  @include column(1);
+
+  position: relative;
+  background: $color-dark;
+  border: 1px solid $color-dark;
+  height: calc((100vh - 9em) / 6);
+  outline: none;
+}
+
+.withData {
+  cursor: pointer;
+  border: 1px solid $color-border;
+  background: $color-background;
+}
+
+.number {
+  position: absolute;
+  top: .2em;
+  right: .2em;
+  opacity: .5;
+}
+
+.content {
+  margin-top: 1.4em;
+}
+
+.reminder {
+  height: 1em;
+  padding: .2em;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+
+  &.color-1 {
+    background: $color-1;
+  }
+  &.color-2 {
+    background: $color-2;
+  }
+  &.color-3 {
+    background: $color-3;
+  }
+  &.color-4 {
+    background: $color-4;
+  }
+  &.color-5 {
+    background: $color-5;
+  }
+}
+
+.more {
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
